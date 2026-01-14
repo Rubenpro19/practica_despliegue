@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        nodejs "Node25"
+        nodejs "node18"
         dockerTool "Dockertool" 
     }
 
